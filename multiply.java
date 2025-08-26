@@ -16,8 +16,7 @@ public class Multiply {
         int num2 = sc.nextInt();
         return num1*num2;
         
-        sc.close();
-
-       
+        sc.close();   
     }
 }
+
