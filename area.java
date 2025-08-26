@@ -1,16 +1,16 @@
 import java.util.Scanner;
-public class area {
-    public static void main(String[] args){
 
+public class Area {
+    public static void main(String[] args) {
+        area(); 
     }
 
-    Scanner sc = new Scanner(System.in);
-
-    static void area(){
-        
-    int radius = sc.nextint();
-        int area = (int) (3.14 * radius * radius);
-        System.out.println(area);
-
+    static void area() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the radius: ");
+        int radius = sc.nextInt();  
+        double area = 3.14 * radius * radius;
+        System.out.println("Area of circle: " + area);
     }
 }
+
